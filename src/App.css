@@ -7,6 +7,14 @@ body {
     background-size: cover;
 }
 
+.tablet {
+    width: clamp(350px, 50%, 50%);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
 .container {
     height: 95vh;
     display: flex;
@@ -17,11 +25,6 @@ body {
 
 .title {
     text-align: center;
-    width: clamp(350px, 50%, 50%);
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
     font-size: xx-large;
     font-weight: bold;
     font-family: system-ui;
@@ -30,11 +33,6 @@ body {
 
 .stats-container {
     text-align: center;
-    width: clamp(350px, 50%, 80%);
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -54,14 +52,6 @@ body {
     font-size: medium;
 }
 
-.contribution-container {
-    width: clamp(350px, 50%, 50%);
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-}
-
 .contributions {
     font-weight: 100;
     font-family: system-ui;
@@ -69,11 +59,7 @@ body {
 }
 
 .references-title {
-    width: clamp(350px, 50%, 50%);
-    padding: 20px;
-    color: white;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
     font-weight: 100;
     font-family: system-ui;
     font-size: medium;
