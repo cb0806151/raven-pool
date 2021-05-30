@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/5780685/pexels-photo-5780685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    width: clamp(350px, 50%, 50%);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: system-ui;
+    font-weight: 100;
+}
+
+.stats-container {
+    text-align: center;
+    width: clamp(350px, 50%, 80%);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.stat {
+    font-size: x-large;
+    font-weight: 100;
+    font-family: system-ui;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.stat-description {
+    font-size: medium;
+}
+
+.contribution-container {
+    width: clamp(350px, 50%, 50%);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.contributions {
+    font-weight: 100;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.references-title {
+    width: clamp(350px, 50%, 50%);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    font-weight: 100;
+    font-family: system-ui;
+    font-size: medium;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: lime;
+}
+
+a:active {
+    color: greenyellow;
+}
