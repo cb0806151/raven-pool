@@ -17,11 +17,9 @@ function App() {
         <div className="tablet">
           <div className="contributions">Following in the footsteps of LAKE pool and volunteering timestamping videos from the crypto community.</div>
           <hr/>
-          <div className="contributions">Giving back to our stakers by distributing 10 ADA to a random one after every block.</div>
-          <hr/>
-          <div className="contributions">You decide: join <a href="https://fireship.io/tags/css/" target="_blank">our Discord</a> and tell us how you think Raven Pool should be giving back to the crypto community</div>
+          <div className="contributions">More to follow; stay tuned!</div>
         </div>
-        <div className="references-title tablet">Photography courtesy of <a href="https://fireship.io/tags/css/" target="_blank">Mimmo Lusito</a></div>
+        <div className="references-title tablet">Photography courtesy of <a href="https://www.pexels.com/@mimmo-lusito-3754976" target="_blank">Mimmo Lusito</a></div>
       </div>
     </>
   )

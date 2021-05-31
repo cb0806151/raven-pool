@@ -154,9 +154,9 @@ window.$RefreshSig$ = function() {
 },{"react-refresh/runtime":"592mh"}],"592mh":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
-  module.exports = require('./cjs/react-refresh-runtime.production.min.js.js');
+  module.exports = require('./cjs/react-refresh-runtime.production.min.js');
 } else {
-  module.exports = require('./cjs/react-refresh-runtime.development.js.js');
+  module.exports = require('./cjs/react-refresh-runtime.development.js');
 }
 
 },{"./cjs/react-refresh-runtime.development.js":"2rNh6"}],"2rNh6":[function(require,module,exports) {
@@ -1042,7 +1042,7 @@ id) /*: string*/
 }
 
 },{}],"5rkFb":[function(require,module,exports) {
-var helpers = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers");
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 helpers.prelude(module);
@@ -1064,9 +1064,9 @@ try {
 },{"react":"3b2NM","react-dom":"2sg1U","./App":"6Pm2X","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3b2NM":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
-  module.exports = require('./cjs/react.production.min.js.js');
+  module.exports = require('./cjs/react.production.min.js');
 } else {
-  module.exports = require('./cjs/react.development.js.js');
+  module.exports = require('./cjs/react.development.js');
 }
 
 },{"./cjs/react.development.js":"ixJ97"}],"ixJ97":[function(require,module,exports) {
@@ -2918,9 +2918,9 @@ if ("development" === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = require('./cjs/react-dom.production.min.js.js');
+  module.exports = require('./cjs/react-dom.production.min.js');
 } else {
-  module.exports = require('./cjs/react-dom.development.js.js');
+  module.exports = require('./cjs/react-dom.development.js');
 }
 
 },{"./cjs/react-dom.development.js":"6fSaM"}],"6fSaM":[function(require,module,exports) {
@@ -24111,9 +24111,9 @@ if ("development" !== "production") {
 },{"react":"3b2NM","object-assign":"3eM6x","scheduler":"5K4BD","prop-types/checkPropTypes":"R8SC7","scheduler/tracing":"6jIZo"}],"5K4BD":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
-  module.exports = require('./cjs/scheduler.production.min.js.js');
+  module.exports = require('./cjs/scheduler.production.min.js');
 } else {
-  module.exports = require('./cjs/scheduler.development.js.js');
+  module.exports = require('./cjs/scheduler.development.js');
 }
 
 },{"./cjs/scheduler.development.js":"59Ipp"}],"59Ipp":[function(require,module,exports) {
@@ -24858,9 +24858,9 @@ if ("development" !== "production") {
 },{}],"6jIZo":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
-  module.exports = require('./cjs/scheduler-tracing.production.min.js.js');
+  module.exports = require('./cjs/scheduler-tracing.production.min.js');
 } else {
-  module.exports = require('./cjs/scheduler-tracing.development.js.js');
+  module.exports = require('./cjs/scheduler-tracing.development.js');
 }
 
 },{"./cjs/scheduler-tracing.development.js":"2qFgQ"}],"2qFgQ":[function(require,module,exports) {
@@ -25172,7 +25172,7 @@ if ("development" !== "production") {
 }
 
 },{}],"6Pm2X":[function(require,module,exports) {
-var helpers = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers");
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 helpers.prelude(module);
@@ -25214,14 +25214,9 @@ try {
         className: "tablet"
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
         className: "contributions"
-      }, "Following in the footsteps of LAKE pool and timestamping videos in the crypto community."), /*#__PURE__*/_reactDefault.default.createElement("hr", null), /*#__PURE__*/_reactDefault.default.createElement("div", {
+      }, "Following in the footsteps of LAKE pool and volunteering timestamping videos from the crypto community."), /*#__PURE__*/_reactDefault.default.createElement("hr", null), /*#__PURE__*/_reactDefault.default.createElement("div", {
         className: "contributions"
-      }, "Giving back to our stakers by distributing 10 ADA to a random one after every block."), /*#__PURE__*/_reactDefault.default.createElement("hr", null), /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "contributions"
-      }, "You decide: join ", /*#__PURE__*/_reactDefault.default.createElement("a", {
-        href: "https://fireship.io/tags/css/",
-        target: "_blank"
-      }, "our Discord"), " and tell us how you think Raven Pool should be giving back to the crypto community")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+      }, "More to follow; stay tuned!")), /*#__PURE__*/_reactDefault.default.createElement("div", {
         className: "references-title tablet"
       }, "Photography courtesy of ", /*#__PURE__*/_reactDefault.default.createElement("a", {
         href: "https://fireship.io/tags/css/",
@@ -25240,7 +25235,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./App.css":"h6p59"}],"5gA8y":[function(require,module,exports) {
+},{"react":"3b2NM","./App.css":"h6p59","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"h6p59":[function() {},{}],"5gA8y":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
@@ -25439,6 +25434,6 @@ function registerExportsForReactRefresh(module) {
   }
 }
 
-},{"react-refresh/runtime":"592mh"}],"h6p59":[function() {},{}]},["1j6wU","3Imd1","5rkFb"], "5rkFb", "parcelRequire62e1")
+},{"react-refresh/runtime":"592mh"}]},["1j6wU","3Imd1","5rkFb"], "5rkFb", "parcelRequire62e1")
 
 //# sourceMappingURL=index.3fafb3e2.js.map
